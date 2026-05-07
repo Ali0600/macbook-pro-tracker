@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MacBook Pro Tracker — Recent Finds</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --card: #1a1d24;
+    --border: #2a2f3a;
+    --text: #e6e8eb;
+    --muted: #8a92a3;
+    --accent: #4ea1ff;
+    --m1: #5ac8fa;
+    --m2: #34c759;
+    --m3: #ff9f0a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 80px; }
+  header { margin-bottom: 24px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .sub { color: var(--muted); font-size: 13px; }
+  .empty {
+    border: 1px dashed var(--border);
+    border-radius: 8px;
+    padding: 32px;
+    text-align: center;
+    color: var(--muted);
+  }
+  .empty code {
+    background: var(--card);
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: var(--text);
+  }
+  .match {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .badge {
+    flex: 0 0 auto;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #0f1115;
+  }
+  .badge.m1 { background: var(--m1); }
+  .badge.m2 { background: var(--m2); }
+  .badge.m3 { background: var(--m3); }
+  .body { flex: 1 1 auto; min-width: 0; }
+  .title {
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .title:hover { color: var(--accent); }
+  .meta { color: var(--muted); font-size: 12px; margin-top: 2px; }
+  .price {
+    flex: 0 0 auto;
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>MacBook Pro Tracker — Recent Finds</h1>
+    <div class="sub" id="sub">Loading…</div>
+  </header>
+  <div id="list"></div>
+</div>
+
+<script src="matches.js"></script>
+<script>
+  function relTime(iso) {
+    const then = new Date(iso).getTime();
+    if (isNaN(then)) return iso;
+    const s = Math.floor((Date.now() - then) / 1000);
+    if (s < 60) return s + "s ago";
+    const m = Math.floor(s / 60);
+    if (m < 60) return m + "m ago";
+    const h = Math.floor(m / 60);
+    if (h < 24) return h + "h ago";
+    const d = Math.floor(h / 24);
+    return d + "d ago";
+  }
+  function escape(str) {
+    return String(str).replace(/[&<>"']/g, c => (
+      {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]
+    ));
+  }
+  const list = document.getElementById("list");
+  const sub = document.getElementById("sub");
+  const matches = window.MATCHES || [];
+  if (matches.length === 0) {
+    sub.textContent = "No matches yet";
+    list.innerHTML = '<div class="empty">No matches yet — run <code>python3 tracker.py</code> to populate.</div>';
+  } else {
+    sub.textContent = "Last find " + relTime(matches[0].found_at) + " — " + matches.length + " total";
+    list.innerHTML = matches.map(m => `
+      <div class="match">
+        <span class="badge ${escape(m.chip)}">${escape(m.chip)}</span>
+        <div class="body">
+          <a class="title" href="${escape(m.url)}" target="_blank" rel="noopener">${escape(m.title)}</a>
+          <div class="meta">${relTime(m.found_at)}</div>
+        </div>
+        <div class="price">${m.price != null ? escape(m.price) + " €" : "—"}</div>
+      </div>
+    `).join("");
+  }
+</script>
+</body>
+</html>
