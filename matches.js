@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3402780502",
+    "chip": "m2",
+    "title": "Vende-se MacBook Pro 2022,m2 512gb,550€",
+    "price": 550,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/vende-se-macbook-pro-2022-m2-512gb-550-/3402780502-278-3378",
+    "found_at": "2026-05-08T12:22:32"
+  },
+  {
     "ad_id": "3402755216",
     "chip": "m1",
     "title": "Macbook Pro M1 2020 - 8GB RAM, 256GB SSD - Akku neu",
