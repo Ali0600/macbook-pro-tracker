@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3402755216",
+    "chip": "m1",
+    "title": "Macbook Pro M1 2020 - 8GB RAM, 256GB SSD - Akku neu",
+    "price": 425,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-m1-2020-8gb-ram-256gb-ssd-akku-neu/3402755216-278-9389",
+    "found_at": "2026-05-08T11:34:39"
+  },
+  {
     "ad_id": "3402656651",
     "chip": "m2",
     "title": "MacBook Pro 13\" M2 (2022) – 8GB – Display defekt – läuft am Monit",
