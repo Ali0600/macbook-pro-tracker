@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3402941348",
+    "chip": "m1",
+    "title": "MacBook Pro M1 13 512GB wie neu 96% Akku",
+    "price": 470,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-m1-13-512gb-wie-neu-96-akku/3402941348-278-2141",
+    "found_at": "2026-05-08T15:29:48"
+  },
+  {
     "ad_id": "3402833466",
     "chip": "m1",
     "title": "MacBook Pro M1 16GB RAM 512 GB SSD 13\" 2020 Tahoe guter Zustand",
