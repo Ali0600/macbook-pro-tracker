@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3403203896",
+    "chip": "m1",
+    "title": "MacBook Pro 14” (2021) – M1 Pro – Defekt / Bastlergerät",
+    "price": 350,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-14-2021-m1-pro-defekt-bastlergeraet/3403203896-278-3660",
+    "found_at": "2026-05-08T20:29:20"
+  },
+  {
     "ad_id": "3402941348",
     "chip": "m1",
     "title": "MacBook Pro M1 13 512GB wie neu 96% Akku",
