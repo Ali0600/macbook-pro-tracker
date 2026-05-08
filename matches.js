@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3402833466",
+    "chip": "m1",
+    "title": "MacBook Pro M1 16GB RAM 512 GB SSD 13\" 2020 Tahoe guter Zustand",
+    "price": 499,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-m1-16gb-ram-512-gb-ssd-13-2020-tahoe-guter-zustand/3402833466-278-3520",
+    "found_at": "2026-05-08T12:56:31"
+  },
+  {
     "ad_id": "3402780502",
     "chip": "m2",
     "title": "Vende-se MacBook Pro 2022,m2 512gb,550€",
