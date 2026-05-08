@@ -1,5 +1,21 @@
 window.MATCHES = [
   {
+    "ad_id": "3402656651",
+    "chip": "m2",
+    "title": "MacBook Pro 13\" M2 (2022) – 8GB – Display defekt – läuft am Monit",
+    "price": 400,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-13-m2-2022-8gb-display-defekt-laeuft-am-monit/3402656651-278-1658",
+    "found_at": "2026-05-08T09:43:11"
+  },
+  {
+    "ad_id": "3402660412",
+    "chip": "m2",
+    "title": "DEFEKT MacBook Pro M2 Pro 14 Zoll 512/16gb",
+    "price": 390,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/defekt-macbook-pro-m2-pro-14-zoll-512-16gb/3402660412-278-1962",
+    "found_at": "2026-05-08T09:43:11"
+  },
+  {
     "ad_id": "3402411158",
     "chip": "m1",
     "title": "Apple MacBook Pro M1 Pro",
