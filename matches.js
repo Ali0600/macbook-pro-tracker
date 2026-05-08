@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3402411158",
+    "chip": "m1",
+    "title": "Apple MacBook Pro M1 Pro",
+    "price": 429,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/apple-macbook-pro-m1-pro/3402411158-278-1839",
+    "found_at": "2026-05-08T05:45:53"
+  },
+  {
     "ad_id": "3402120056",
     "chip": "m1",
     "title": "Apple MacBook Pro 13\" 2020 M1 – mit OVP & Ladegerät",
