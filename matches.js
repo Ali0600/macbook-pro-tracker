@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3403516201",
+    "chip": "m1",
+    "title": "MacBook Pro 13\" M1 8GB 256GB Space Grau – guter Zustand",
+    "price": 490,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-13-m1-8gb-256gb-space-grau-guter-zustand/3403516201-278-983",
+    "found_at": "2026-05-09T10:19:33"
+  },
+  {
     "ad_id": "3403462308",
     "chip": "m1",
     "title": "MacBook Pro 13\" M1 | 91% Akku | Top Zustand + OVP",
