@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3403836474",
+    "chip": "m2",
+    "title": "Apple Macbook Pro 13 M2 (2022)",
+    "price": 399,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/apple-macbook-pro-13-m2-2022-/3403836474-278-6442",
+    "found_at": "2026-05-09T15:45:09"
+  },
+  {
     "ad_id": "3403810289",
     "chip": "m1",
     "title": "MacBook Pro M1 - 512GB, 16GB, QWERTY, TouchBar",
