@@ -1,5 +1,21 @@
 window.MATCHES = [
   {
+    "ad_id": "3403375744",
+    "chip": "m1",
+    "title": "Top MacBook Pro 13-inch mit Apple M1-Chip",
+    "price": 400,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/top-macbook-pro-13-inch-mit-apple-m1-chip/3403375744-278-4315",
+    "found_at": "2026-05-09T08:58:59"
+  },
+  {
+    "ad_id": "3403422267",
+    "chip": "m1",
+    "title": "MacBook Pro M1 mit Touchbar 256GB SSD und 8GB RAM",
+    "price": 440,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-m1-mit-touchbar-256gb-ssd-und-8gb-ram/3403422267-278-30067",
+    "found_at": "2026-05-09T08:58:59"
+  },
+  {
     "ad_id": "3403203896",
     "chip": "m1",
     "title": "MacBook Pro 14” (2021) – M1 Pro – Defekt / Bastlergerät",
