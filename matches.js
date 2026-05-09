@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3403696793",
+    "chip": "m2",
+    "title": "MacBook Pro M2 2022 13“",
+    "price": 500,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-m2-2022-13-/3403696793-278-1638",
+    "found_at": "2026-05-09T13:28:56"
+  },
+  {
     "ad_id": "3403627487",
     "chip": "m1",
     "title": "MacBook Pro 14” (2021) – M1 Pro – Defekt / Bastlergerät",
