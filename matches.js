@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3403750252",
+    "chip": "m1",
+    "title": "A2338 13\" MacBook Pro 2020 M1 8GB 256GB Silber #217 MacBook Pro",
+    "price": 489,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/-a2338-13-macbook-pro-2020-m1-8gb-256gb-silber-217-macbook-pro-/3403750252-278-3391",
+    "found_at": "2026-05-09T14:01:25"
+  },
+  {
     "ad_id": "3403696793",
     "chip": "m2",
     "title": "MacBook Pro M2 2022 13“",
