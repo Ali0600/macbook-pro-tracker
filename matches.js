@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3403810289",
+    "chip": "m1",
+    "title": "MacBook Pro M1 - 512GB, 16GB, QWERTY, TouchBar",
+    "price": 460,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-m1-512gb-16gb-qwerty-touchbar/3403810289-278-3498",
+    "found_at": "2026-05-09T15:17:17"
+  },
+  {
     "ad_id": "3403750252",
     "chip": "m1",
     "title": "A2338 13\" MacBook Pro 2020 M1 8GB 256GB Silber #217 MacBook Pro",
