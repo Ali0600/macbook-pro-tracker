@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3404334355",
+    "chip": "m1",
+    "title": "MacBook Pro 13” M1 2020 – 8GB / 500GB SSD – OVP – Wie neu",
+    "price": 460,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-13-m1-2020-8gb-500gb-ssd-ovp-wie-neu/3404334355-278-3904",
+    "found_at": "2026-05-10T09:57:01"
+  },
+  {
     "ad_id": "3404091270",
     "chip": "m1",
     "title": "MacBook Pro 2020, 13 Zoll, Apple M1, 8 GB, 500 GB SSD",
