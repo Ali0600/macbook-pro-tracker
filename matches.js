@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3404917946",
+    "chip": "m1",
+    "title": "MacBook Pro M1 Touchbar SSD 265 GB",
+    "price": 425,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-m1-touchbar-ssd-265-gb/3404917946-278-6818",
+    "found_at": "2026-05-10T18:15:20"
+  },
+  {
     "ad_id": "3404801252",
     "chip": "m1",
     "title": "MacBook Pro 13 Zoll M1",
