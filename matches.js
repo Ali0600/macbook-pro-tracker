@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3404777715",
+    "chip": "m1",
+    "title": "MacBook Pro 13 Zoll 2020, M1, 16GB RAM, Spacegrey",
+    "price": 499,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-13-zoll-2020-m1-16gb-ram-spacegrey/3404777715-278-12894",
+    "found_at": "2026-05-10T16:16:26"
+  },
+  {
     "ad_id": "3404680898",
     "chip": "m1",
     "title": "MacBook Pro M1 2020 256 GB 8 GB RAM space grey",
