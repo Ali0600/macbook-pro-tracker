@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3404984307",
+    "chip": "m1",
+    "title": "MacBook Pro M1 256 GB",
+    "price": 460,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-m1-256-gb/3404984307-278-26991",
+    "found_at": "2026-05-11T06:43:53"
+  },
+  {
     "ad_id": "3405064475",
     "chip": "m3",
     "title": "Apple MacBook Pro M3, QWERTY, 16GB RAM, 512 GB SDD, 14 inch",
