@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3405598943",
+    "chip": "m1",
+    "title": "MacBook Pro 13,3 Touchpad M1 256GB SSD,8GB RAM",
+    "price": 470,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-13-3-touchpad-m1-256gb-ssd-8gb-ram/3405598943-278-3384",
+    "found_at": "2026-05-11T16:20:21"
+  },
+  {
     "ad_id": "3405342383",
     "chip": "m1",
     "title": "MacBook Pro M1 16GB RAM 512 GB SSD 13\" 2020 Tahoe guter Zustand",
