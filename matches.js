@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3406219435",
+    "chip": "m1",
+    "title": "MacBook Pro 13\" (M1, 2020) – DEFEKT (Displayfehler)",
+    "price": 449,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-13-m1-2020-defekt-displayfehler-/3406219435-278-1040",
+    "found_at": "2026-05-12T11:16:00"
+  },
+  {
     "ad_id": "3406100874",
     "chip": "m2",
     "title": "For pieces or repair — MacBook Pro M2 13” 256Go SSD 8Go RAM",
