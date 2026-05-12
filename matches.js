@@ -1,5 +1,13 @@
 window.MATCHES = [
   {
+    "ad_id": "3406100874",
+    "chip": "m2",
+    "title": "For pieces or repair — MacBook Pro M2 13” 256Go SSD 8Go RAM",
+    "price": 550,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/for-pieces-or-repair-macbook-pro-m2-13-256go-ssd-8go-ram/3406100874-278-3492",
+    "found_at": "2026-05-12T09:22:18"
+  },
+  {
     "ad_id": "3405598943",
     "chip": "m1",
     "title": "MacBook Pro 13,3 Touchpad M1 256GB SSD,8GB RAM",
