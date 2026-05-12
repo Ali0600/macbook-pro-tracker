@@ -1,5 +1,29 @@
 window.MATCHES = [
   {
+    "ad_id": "3406437376",
+    "chip": "m1",
+    "title": "MacBook Pro M1 2020 \"DEFEKT\" (Softwarefehler)",
+    "price": 250,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-m1-2020-defekt-softwarefehler-/3406437376-278-1110",
+    "found_at": "2026-05-12T15:27:17"
+  },
+  {
+    "ad_id": "3406467471",
+    "chip": "m1",
+    "title": "MacBook Pro 13“ M1 (2020) – 8GB RAM – Sehr guter Zustand",
+    "price": 499,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-13-m1-2020-8gb-ram-sehr-guter-zustand/3406467471-278-7523",
+    "found_at": "2026-05-12T15:27:17"
+  },
+  {
+    "ad_id": "3406457104",
+    "chip": "m1",
+    "title": "MacBook Pro A2338 M1 2020 16GB 512GB",
+    "price": 499,
+    "url": "https://www.kleinanzeigen.de/s-anzeige/macbook-pro-a2338-m1-2020-16gb-512gb/3406457104-278-3511",
+    "found_at": "2026-05-12T15:27:17"
+  },
+  {
     "ad_id": "3406331473",
     "chip": "m1",
     "title": "MacBook Pro M1 16GB RAM 512 GB SSD 13\" 2020 Tahoe guter Zustand",
