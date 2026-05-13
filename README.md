@@ -1,4 +1,10 @@
+[![Track listings](https://github.com/Ali0600/macbook-pro-tracker/actions/workflows/track.yml/badge.svg)](https://github.com/Ali0600/macbook-pro-tracker/actions/workflows/track.yml)
+[![Live dashboard](https://img.shields.io/badge/GitHub%20Pages-live-2ea44f?logo=github)](https://ali0600.github.io/macbook-pro-tracker/)
+[![Python](https://img.shields.io/badge/python-3.11-3776ab?logo=python&logoColor=white)](https://www.python.org/)
+
 Update: I found a Macbook Pro M1 16GB RAM 512GB storage, so this program is no longer needed.
+
+Live dashboard: https://ali0600.github.io/macbook-pro-tracker/
 
 Problem: I wanted to automate looking for Macbook Pro deals. It filters Kleinanziegen for deals based on my criteria and if it finds deals, it will open a chrome tab with the link.
 

@@ -80,6 +80,23 @@
     font-variant-numeric: tabular-nums;
     font-weight: 600;
   }
+  .notice {
+    background: linear-gradient(135deg, rgba(52, 199, 89, 0.15), rgba(78, 161, 255, 0.12));
+    border: 1px solid rgba(52, 199, 89, 0.45);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .notice strong { color: #34c759; }
+  .notice .repo {
+    display: block;
+    margin-top: 6px;
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .notice .repo a { color: var(--accent); text-decoration: none; }
+  .notice .repo a:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
@@ -88,6 +105,10 @@
     <h1>MacBook Pro Tracker — Recent Finds</h1>
     <div class="sub" id="sub">Loading…</div>
   </header>
+  <div class="notice">
+    <strong>Update:</strong> I found a MacBook Pro M1 16GB RAM 512GB storage, so this program is no longer needed.
+    <span class="repo">Source &amp; details: <a href="https://github.com/Ali0600/macbook-pro-tracker" target="_blank" rel="noopener">github.com/Ali0600/macbook-pro-tracker</a></span>
+  </div>
   <div id="list"></div>
 </div>
 
